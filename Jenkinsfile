@@ -3,7 +3,7 @@ de{
   
     def app
       stage('SCM Checkout'){
-           git branch: 'was', url: 'https://github.com/ravivp/dockerimgae.git'
+           git branch: 'was', url: 'https://github.com/ravivp/websphare.git'
 	     }
 	       stage('build project'){
 	           def MAVEN_HOME= tool name: 'mvn', type: 'maven'
@@ -34,4 +34,4 @@ de{
 																							                    echo "Trying to Push Docker Build to DockerHub"
 																									        }
 																										  
-																										  }
+									  }
