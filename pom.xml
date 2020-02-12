@@ -12,6 +12,7 @@
 	<artifactId>springbootrestapi</artifactId>
 	<version>0.0.1</version>
 	<name>springbootrestapi</name>
+	 <packaging>war</packaging>
 	
 	<description>project for Spring Boot rest api</description>
 
